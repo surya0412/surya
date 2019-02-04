@@ -1,7 +1,17 @@
-public class HelloWorld
-{   
-      public static void main(String[] args)
-      {       
-         System.out.println("Hello gist @ GitHub!");   
-      }
-} 
+package sample;
+
+public class Some 
+{
+	public static void main(String[] args) 
+	{
+		int i,j;
+		int[] arr=new int[] {1,2,3,4};
+		for(i=0,j=1;i<arr.length-1;i++,j++)
+		{
+			if(arr[j]-arr[i]==1)
+			{
+				System.out.println("("+arr[j]+","+arr[i]+")");
+			}
+		}
+	}
+}
